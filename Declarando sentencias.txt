@@ -1,0 +1,41 @@
+CREATE OR REPLACE FUNCTION movies_stats()
+RETURNS VOID-----(QUE NO DEVUELVA NADA)
+LANGUAGE plpsql
+AS$$
+DECLARE
+total_rated_r REAL:0.0;
+total_larger_thank_100 REAL:=0.0;
+total_published_2006 REAL:=0.0;
+average_duration REAL:0.0;
+
+------------------------------------------------------------------------------------
+JASON objeto de datos
+
+CREATE TYPE humor AS ENUM ('triste', 'normal', 'feliz');
+
+CREATE TABLE persona_prueba
+nombre text,
+humor_actual humor
+
+);
+-----------------------------------------------------------------------------------------
+
+JASON
+
+JSON Texto plano - Es unicamente un string de texto.
+JSON Binary - Es más rápido de procesar ya que se guarda como un archivo binario.
+
+
+----------------------------------------------------------------------------------------
+
+INSERT INTO ordenes (info)
+
+VALUES 
+
+(
+'{"clientes":"David Sanchez","items":{"producto":"Biberón","cantidad"}
+
+SELECT 
+info->'client' AS cliente --------( te lo da ne formato Jason)
+info->>'client' AS cliente---------(formato plano)
+FROM ordenes;                       

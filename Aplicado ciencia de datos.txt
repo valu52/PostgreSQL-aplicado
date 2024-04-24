@@ -1,0 +1,45 @@
+SELECT MAX(ultima_actualizacion) AS fecha_ultima_actualizacion,
+clasificacion
+COUNT(*) AS cantidad_peliculas
+
+FROM peliculas 
+WHERE  duration_renta > 3
+GROUP BY clasificacion, ultima_actualizacion
+ORDEN BY fecha_ultima actualizacion;
+
+--------------------------------------------------------------------------------------
+
+CREATE OR REPLACE FUNCTION count_total_movies()
+RETURNS int
+LANGUAGE plpgsql
+AS $$
+BEGIN
+RETURN COUNT (*) FROM peliculas;
+END
+$$;
+
+
+--------------------------------------------------------------------------------------
+CREATE OR REPLACE FUNCTION duplicate_recors()
+RETURNS trigger
+LANGUAGE plpsql
+AS $$
+BEGIN 
+INSERT INTO aaab(bbba, ccca)
+VALUE (NEW.bbb,NEW.ccc) 
+RETURN NEW
+END
+$$;
+
+
+CREATE TRIGGER aaa_changes
+BEFORE INSERT
+ON aaa
+FOR EACH ROW
+ EXECUTE PROCEDURE duplicate_records();
+
+
+
+
+
+

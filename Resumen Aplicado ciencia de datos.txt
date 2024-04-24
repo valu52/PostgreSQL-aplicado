@@ -1,0 +1,49 @@
+-Un científico de datos entiende el negocio y sus necesidades para traducirlo a los demás equipos de datos. El cientifico de datos es el líder. Su trabajo da impacto a la organización
+
+DBAs
+Analistas
+Ingenieros
+En muchas organizaciones va a haber una única persona que se encargue de todo el proceso de datos
+
+Contar historias con los datos
+Las habilidades siempre van a ser necesarias en cualquier organización.
+
+-------------------------------------------------------------------------------------------
+
+-Importante que los datos impacatan de forma significativa la organización.
+
+-Data Driven: Consiste en tomar decisiones basadas en los datos. Es labor del DS brindar estos datos y sus representaciones.
+-Información significativa: Entender de que manera podemos aprovechar los datos para decir que cosa y cómo la vamos a presentar
+-Representación de los datos: Es importante presentar de forma visual los datos dependiendo del problema y el publico al que va dirigida esta presentación.
+-Neutralidad de datos: Hay ocasiones en la que los datos escogidos generan situaciones fuertes de discriminación a la hora de usarlos en modelos de AI, esto es conocido como Machine Bias.
+
+
+------------------------------------------------------------------------------------------
+
+-DBA (Dabta Base Administrator) Mantener y administrar el motor de base de datos
+-Data Warehouse (Almacén de datos). Guardar datos pensando a futuro para poder trabajarse
+-ETL/ Data Pipelines Llevar datos de un lado a otro
+-BI (Business Intelligence) Precursores del DataScience, empezar a extraer datos y entender los datos y sus repercusiones, encontrar patrones
+-Data Science Entender a la organización e impactarla de forma positiva
+-ML (Machine Learning) Técnica para clasificar información o realizar predicciones con datos historicos
+
+ ----------------------------------------------------------------------------------------
+
+Data science VS ML
+ML es un conjunto de ciencias, estrategias, disciplinas y algoritmos que nos van ayudar a tomar la capacidad de computo de las maquinas para resolver problemas de clasificación, de forma que se haga de forma automática, otro punto es realizar predicciones con base a patrones para generar tendencias acorde al comportamiento historico para predecir el futuro
+
+Data Science Conoce a la organización y empresa a detalle para poder hacer algo al respecto. Toma todas las variables de la organización y herramientas disponibles para causar el mejor impacto
+
+ML Es una herramienta más que complementa al Data Science y a la organización
+
+
+--------------------------------------------------------------------------------------
+Diferencias entre PostgreSQL y otros manejadores de bases de datos
+
+1-Código libre y orientado a la comunidad.
+2-Base de datos adaptable: soporta documentos JSON y orientadas a estadísticas.
+3-PL/pgSQL (procedural languaje).
+4-Manejador de objetos: objetos clave/valor.
+5-Particiones: permite ejercer una estrategia de particionado para Big Data.
+6-Common table expressions: usa tablas virtuales y dinámicas en tiempo de ejecución.
+7-Window functions: encontrar la relación entre un row particular y su relación con toda la tabla.
